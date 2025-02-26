@@ -57,5 +57,5 @@ got help from - [MrOtherGuy](https://github.com/MrOtherGuy/firefox-csshacks)
 
 ---
 
-If anyone finds any issues, feel free to submit a pull request or contact with [me](514mdtox@gmail.com) for any help!
+If anyone finds any issues, feel free to submit a pull request or contact with me (514mdtox@gmailcom) for any help!
 
