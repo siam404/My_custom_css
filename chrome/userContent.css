@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "JetBrains Mono";            /* Custom font name */
+  src: url("fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+       url("fonts/JetBrainsMono-Bold.woff") format("woff");
+  font-weight: 700;                         /* Bold = 700 */
+  font-style: normal;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace; /* Apply font to body */
+}
