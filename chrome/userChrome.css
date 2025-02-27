@@ -168,11 +168,6 @@ body {
     display: none !important;
 }
 
-/* Hide the lock icon (HTTPS indicator) */
-#identity-box {
-    display: none !important;
-}
-
 
 
 /* Move the "Open Application Menu" icon to the rightmost position in the tab bar */
@@ -225,5 +220,4 @@ body {
  scrollbox[orient="horizontal"]{
    justify-content: var(--uc-flex-justify,initial);
  }
-
 
