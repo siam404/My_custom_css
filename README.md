@@ -1,4 +1,4 @@
-# ✨ AnimatedFox ✨
+# ✨ Animated Custom CSS ✨
 A minimal Firefox theme with a hidden URL bar and satisfying animations.
 
 https://github.com/user-attachments/assets/cf0234c6-1d65-4a15-98f9-263a55d86250
