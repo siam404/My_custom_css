@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/cf0234c6-1d65-4a15-98f9-263a55d86250
 4. ⌨️ Clone this repository inside the profile directory you just copied:
 ```bash
 cd the/path/you/just/copied
-git clone https://github.com/siam404/My_custom_css.git
+git clone https://github.com/siam404/My_custom_css.git chrome
 ```
 5. 📑 Hide the bookmarks toolbar by pressing Ctrl+Shift+B or right clicking and selecting "Never Show."
 
