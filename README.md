@@ -26,7 +26,8 @@ git clone https://github.com/siam404/My_custom_css.git chrome
 ### 🌐 Custom New Tab Setup  
 If you want your new tab to look the same as mine, follow these steps:  
 
-1. **Install the "New Tab Override" extension** → [Download here](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/)  
+ 1.**Install the "New Tab Override" extension** → <a href="https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/" target="_blank">Download here</a>
+
 2. **Set the custom URL in the extension:**  
    - Open the extension settings.  
    - Paste this URL in the "Custom URL" section:  
