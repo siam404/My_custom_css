@@ -66,8 +66,8 @@ body {
 
 :root{
   --uc-navbar-transform: -40px;
-  --uc-autohide-toolbar-delay: 1.8s;
-  --uc-autohide-toolbar-duration: 400ms;
+  --uc-autohide-toolbar-delay: .40s;
+  --uc-autohide-toolbar-duration: 200ms;
 }
 :root[uidensity="compact"]{ --uc-navbar-transform: -34px }
 
