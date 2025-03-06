@@ -4,8 +4,52 @@
        url("fonts/JetBrainsMono-Bold.woff") format("woff");
   font-weight: 700;                         /* Bold = 700 */
   font-style: normal;
-}
+  }
+
 
 body {
   font-family: "JetBrains Mono", monospace; /* Apply font to body */
+}
+
+@-moz-document url("about:home"), url("about:newtab") {
+  /* Hide Firefox logo and text */
+  .search-wrapper .logo-and-wordmark,
+  .logo-and-wordmark .logo,
+  .logo-and-wordmark {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      height: 0 !important;
+      width: 0 !important;
+  }
+}
+
+/*background color of the new tab page and home page*/
+
+@-moz-document url("about:home"), url("about:newtab") {
+  body {
+      background-color: #282828 !important;  /* Change to any color */
+  }
+}
+/* hide all the shortcuts icon tab */
+
+@-moz-document url("about:newtab"), url("about:home") {
+  .top-sites-list, .top-sites-section, .ds-top-sites-container {
+    display: none !important; /* Hides all shortcut tabs */
+  }
+}
+
+/*hide the setting icon bottom right corner*/
+
+@-moz-document url("about:newtab"), url("about:home") {
+  .icon.icon-settings {
+    opacity: 0; /* Hide the settings icon */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+    pointer-events: none; /* Disable interaction */
+  }
+
+  .personalizeButtonWrapper:hover .icon.icon-settings {
+    opacity: 1; /* Show on hover */
+    pointer-events: auto; /* Enable interaction */
+  }
 }
