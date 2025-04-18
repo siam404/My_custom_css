@@ -131,10 +131,10 @@ body {
   transform: translateY(0);
 }
 #urlbar-container > #urlbar[popover]:is([focused],[open]){
- transition-duration: 100ms;
+ transition-duration: 1ms;
 }
 #mainPopupSet:has(> [panelopen]:not(#ask-chat-shortcuts,#tab-preview-panel)) ~ #navigator-toolbox > .browser-toolbar{
-  transition-delay: 33ms !important;
+  transition-delay: 100ms !important;
   transform: translateY(0);
   opacity: 1;
 }
@@ -155,9 +155,14 @@ body {
   display: none !important;
 }
 
+#nav-bar-overflow-button {
+  display: none !important;
+}
+
+
 /* Resize and center the search box */
 #urlbar-container {
-  max-width: 275px !important;
+  max-width: 235px !important;
   min-width: 100px !important;
   margin: 0 !important;
 }
@@ -228,7 +233,7 @@ scrollbox[smoothscroll="true"] > slot {
 
 scrollbox[smoothscroll="true"] {
   justify-content: center !important;
-  padding-left: 87px !important; /* Adjust this value to shift the tabs slightly to the right */
+  padding-left: 80px !important; /* Adjust this value to shift the tabs slightly to the right */
 }
 
 /*hide open new tab button*/
@@ -259,7 +264,7 @@ scrollbox[smoothscroll="true"] {
     order: 0;
     border-radius: 5px; /* Adjust the roundness */
     width: 30px; /* Adjust the width */
-    height: 30px; /* Adjust the height */
+    height: 15px; /* Adjust the height */
 }
 
 
@@ -269,7 +274,7 @@ scrollbox[smoothscroll="true"] {
     order: 1;
     border-radius: 5px; /* Adjust the roundness */
     width: 30px; /* Adjust the width */
-    height: 30px; /* Adjust the height */
+    height: 15px; /* Adjust the height */
   }
 
     
@@ -278,7 +283,7 @@ scrollbox[smoothscroll="true"] {
       order: 2; 
       border-radius: 5px; /* Adjust the roundness */
       width: 30px; /* Adjust the width */
-      height: 30px; /* Adjust the height */
+      height: 15px; /* Adjust the height */
     }
 
 
@@ -292,3 +297,10 @@ scrollbox[smoothscroll="true"] {
     .titlebar-button:hover {
       filter: brightness(60%);
     }
+
+
+
+
+
+
+
