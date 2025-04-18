@@ -1,7 +1,7 @@
 # ✨ Animated Custom CSS ✨
 A minimal Firefox theme with a hidden URL bar and satisfying animations.
 
-
+https://github.com/user-attachments/assets/25dfb2d9-a1bc-4d86-b73f-642a1c8da90c
 
 ## 🖥️ Requirements
  - 🦊 An up-to-date version of Firefox or LibreWolf. Other Firefox derivatives might work but I haven't tested them.
